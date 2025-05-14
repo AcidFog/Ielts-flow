@@ -15,10 +15,10 @@ export const CoachingOptions = [
 
     },
     {
-        name: 'Ques Ans Prep',
+        name: 'Ielts speaking',
         icon: '/qa.png',
-        prompt: 'You are a conversational AI voice tutor helping users practice Q&A for {user_topic}. Ask clear, well-structured questions and provide concise feedback. Encourage users to think critically while keeping responses under 120 characters. Engage them with one question at a time.',
-        summeryPrompt: 'As per conversation give feedback to user along with where is improvment space depends in well structure',
+        prompt: 'You are a conversational AI voice tutor helping users practice Q&A for {user_topic}. Ask clear, well-structured questions from IELTS TOPICS and provide concise feedback. Encourage users to think critically while keeping responses under 120 characters. Engage them with one question at a time.',
+        summeryPrompt: 'Evaluate the answers for a questions as for IELTS band scale like  7.5 4.5 for each catrgory that evaluate real IELTS  exam speaking and some mistakes of speaking person',
         abstract: '/ab3.png'
     },
     {

@@ -9,7 +9,10 @@ export const AppHeader = () => {
   return (
     <div className='p-3 shadow-sm flex justify-between items-center'>
       <div onClick={() => router.push('/dashboard')} className="cursor-pointer">
-        <Image src={'/Logo.svg'} alt='logo' width={50} height={50} />
+        <div className="flex items-center space-x-2">
+          <Image src={'/Logo.svg'} alt='logo' width={50} height={50} />
+          <h2 className="text-lg font-bold">IELTS FLOW</h2>
+        </div>
       </div>
       <UserButton />
     </div>

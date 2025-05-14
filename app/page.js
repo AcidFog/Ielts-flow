@@ -5,10 +5,14 @@ import { UserButton } from "@stackframe/stack";
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-[#f8f9ff] text-gray-800 items-center">
-      <div className="flex items-center justify-between w-full max-w-7xl px-6 py-4">
-        <h1 className="text-2xl font-bold">IELTS Flow</h1>
+      {/* Custom Header */}
+      <header className="w-full flex justify-between items-center px-6 py-4 bg-white shadow-sm">
+        <div className="flex items-center gap-2">
+          <Image src="/logo.svg" alt="Logo" width={32} height={32} />
+          <span className="text-xl font-bold text-gray-900">IELTS FLOW</span>
+        </div>
         <UserButton />
-      </div>
+      </header>
 
       <main className="flex-1 w-full max-w-7xl flex flex-col items-center">
         {/* Hero Section */}
